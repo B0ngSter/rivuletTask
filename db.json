@@ -1,8 +1,12 @@
 {
   "posts": [
+    {
+      "userId": "Nitesh",
+      "title": "hello world",
+      "body": "hello users",
+      "id": 1
+    }
   ],
-  "comments": [
-  ],
-  "profile": {
-  }
+  "comments": [],
+  "profile": {}
 }
