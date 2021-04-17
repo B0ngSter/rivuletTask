@@ -3,7 +3,7 @@
     <div v-if="isAuthenticated" class="">
       <div class="w-screen h-16 border-2 border-gray-200 flex items-center justify-between">
         <div class="w-2/5 h-8 flex justify-center">
-          <button v-if="postBeingCreated" @click="postBeingCreated = false" class="border-2 border-DarkBlue px-4">Go Back</button>
+          <button v-if="postBeingCreated" @click="postBeingCreated = false;login()" class="border-2 border-DarkBlue px-4">Go Back</button>
           <button v-else @click="postBeingCreated = true" class="border-2 border-DarkBlue px-4">Create a post</button>
         </div>
         <div>
