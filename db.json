@@ -1,44 +1,8 @@
 {
   "posts": [
-    {
-      "userId": "sss",
-      "title": "Hello World",
-      "body": "hello user",
-      "id": 2
-    },
-    {
-      "userId": "czxcz",
-      "title": "cxzczxc",
-      "body": "czxcxz",
-      "id": 3
-    },
-    {
-      "userId": "cxzcz",
-      "title": "cxzcxz",
-      "body": "cxzcz",
-      "id": 4
-    },
-    {
-      "userId": "cxzcz",
-      "title": "cxwww",
-      "body": "tttt",
-      "id": 5
-    },
-    {
-      "userId": "sss",
-      "title": "ssza",
-      "body": "ffrfr",
-      "id": 6
-    }
   ],
   "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
   ],
   "profile": {
-    "name": "typicode"
   }
 }

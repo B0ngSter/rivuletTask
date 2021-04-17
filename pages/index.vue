@@ -67,7 +67,7 @@ export default {
     login () {
       if (this.userId.length > 0) {
         this.isAuthenticated = true
-        this.$axios.get('http://localhost:3000/posts').then((res) => {
+        this.$axios.get('https://my-json-server.typicode.com/B0ngSter/rivuletTask/posts').then((res) => {
           this.fetchedPost = res.data
           this.fetchedPost = this.fetchedPost.filter((key) => this.userId === key.userId)
         })
@@ -79,7 +79,8 @@ export default {
         title: this.postTitle,
         body: this.post
       }
-      this.$axios.post('http://localhost:3000/posts', payload).then((res) => {
+      debugger
+      this.$axios.post('https://my-json-server.typicode.com/B0ngSter/rivuletTask/posts', payload).then((res) => {
         console.log('posted')
         this.postTitle = ''
         this.post = ''
